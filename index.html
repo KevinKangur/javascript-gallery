@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gallery</title>
+</head>
+<body>
+    <div class="images-slideshow">
+        <div class="imageSlides">
+            <img src="https://wallpaperaccess.com/full/2586589.jpg">
+        </div>
+        <div class="imageSlides">
+            <img src="https://cdn.wallpapersafari.com/78/66/B2raxX.jpg">
+        </div>
+        <div class="imageSlides">
+            <img src="https://cdn.wallpapersafari.com/78/66/B2raxX.jpg">
+        </div>
+        <div class="imageSlides">
+            <img src="https://wallpaperaccess.com/full/2586592.jpg">
+        </div>
+        <a class="slider-btn previous" onclick="setSlides(-1)">❮</a>
+        <a class="slider-btn next" onclick="setSlides(1)">❯</a>
+    </div>
+    
+    <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
